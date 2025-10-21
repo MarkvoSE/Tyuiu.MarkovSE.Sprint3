@@ -61,11 +61,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task2.V22", "Tyuiu.MarkovSE.Sprint3.Task2.V22\Tyuiu.MarkovSE.Sprint3.Task2.V22.csproj", "{A34D97CE-CFFC-4531-A7AB-0354F5E100BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task2.V24", "Tyuiu.MarkovSE.Sprint3.Task2.V22\Tyuiu.MarkovSE.Sprint3.Task2.V24.csproj", "{A34D97CE-CFFC-4531-A7AB-0354F5E100BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task2.V22.Lib", "Tyuiu.MarkovSE.Sprint3.Task2.V22.Lib\Tyuiu.MarkovSE.Sprint3.Task2.V22.Lib.csproj", "{C5CBD8D8-92AC-467A-B3F6-6B94982B0DC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task2.V24.Lib", "Tyuiu.MarkovSE.Sprint3.Task2.V22.Lib\Tyuiu.MarkovSE.Sprint3.Task2.V24.Lib.csproj", "{C5CBD8D8-92AC-467A-B3F6-6B94982B0DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task2.V22.Test", "Tyuiu.MarkovSE.Sprint3.Task2.V22.Test\Tyuiu.MarkovSE.Sprint3.Task2.V22.Test.csproj", "{3FDECE4C-0943-429C-AC33-21D335A344DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MarkovSE.Sprint3.Task2.V24.Test", "Tyuiu.MarkovSE.Sprint3.Task2.V22.Test\Tyuiu.MarkovSE.Sprint3.Task2.V24.Test.csproj", "{3FDECE4C-0943-429C-AC33-21D335A344DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
