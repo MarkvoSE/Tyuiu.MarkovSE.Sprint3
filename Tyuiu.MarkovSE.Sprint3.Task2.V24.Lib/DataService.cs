@@ -1,23 +1,16 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint3;
-using System;
+﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.MarkovSE.Sprint3.Task2.V24.Lib
 {
-    public class DataService
+    public class DataService : ISprint3Task2V24
     {
-        /// <summary>
-        /// Вычисляет произведение ряда по формуле: p = ∏(a^k + k) для k от startValue до stopValue
-        /// </summary>
-        /// <param name="value">Значение параметра a</param>
-        /// <param name="startValue">Начальное значение k</param>
-        /// <param name="stopValue">Конечное значение k</param>
-        /// <returns>Результат вычисления произведения ряда</returns>
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             // Проверка валидности входных данных
             if (startValue > stopValue)
             {
-                throw new ArgumentException("startValue не может быть больше stopValue");
+                throw new ArgumentException("Начальное значение не может быть больше конечного", nameof(startValue));
             }
 
             double product = 1.0;
@@ -26,14 +19,15 @@ namespace Tyuiu.MarkovSE.Sprint3.Task2.V24.Lib
             // Используем цикл do...while как требуется в задании
             do
             {
-                // Формула: (a^k + k)
+                // Вычисляем член ряда: (a^k + k)
                 double term = Math.Pow(value, k) + k;
                 product *= term;
                 k++;
             }
             while (k <= stopValue);
 
-            return Math.Round(product, 3); // Округляем до 3 знаков после запятой как в тесте
+            // Округляем результат до 3 знаков после запятой как в тесте
+            return Math.Round(product, 3);
         }
     }
 }
