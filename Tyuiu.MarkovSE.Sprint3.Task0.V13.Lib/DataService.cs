@@ -9,10 +9,9 @@ namespace Tyuiu.MarkovSE.Sprint3.Task0.V13.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries + (Math.Pow(value, i) + (0.5)) * Math.Cos(i);
+                sumSeries = sumSeries + ((Math.Pow(value, i) + 0.5) * Math.Cos(i));
             }
             return Math.Round(sumSeries, 3);
         }
     }
 }
-
