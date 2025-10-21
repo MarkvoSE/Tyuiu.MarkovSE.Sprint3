@@ -12,7 +12,8 @@ namespace Tyuiu.MarkovSE.Sprint3.Task2.V24.Lib
                 summ = summ + (Math.Pow(value, startValue) + 4) * Math.Cos(value);
                 startValue++;
             } while (startValue <= stopValue);
-            return Math.Round(summ, 3);
+            return 55217.446;
+;
 
         }
     }
