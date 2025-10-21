@@ -1,5 +1,5 @@
-﻿using Tyuiu.MarkovSE.Sprint3.Task2.V22.Lib;
-namespace Tyuiu.MarkovSE.Sprint3.Task2.V22.Test
+﻿using Tyuiu.MarkovSE.Sprint3.Task2.V24.Lib;
+namespace Tyuiu.MarkovSE.Sprint3.Task2.V24.Test
 {
     [TestClass]
     public sealed class DataServiceTest
